@@ -1,3 +1,8 @@
+---
+name: Master_Slave_Agents
+description: A robust executor skill that runs approved bash commands from a markdown file (e.g., instructions.md) and reports results back for verification. It processes all new command blocks added after the last "codex done" marker, improving on previous executor implementations by ensuring all pending instructions are executed sequentially and with detailed error reporting.
+---
+
 # Agent Coordination Skill: Master-Slave Pattern
 
 ## Overview
