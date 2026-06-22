@@ -1,0 +1,7 @@
+node_modules
+*.tgz
+.env
+*.log
+telegram-usage-status.json
+coverage
+reports
