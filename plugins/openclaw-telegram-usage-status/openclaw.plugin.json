@@ -1,0 +1,19 @@
+{
+  "id": "openclaw-telegram-usage-status",
+  "name": "Telegram Usage Status",
+  "description": "Update a Telegram bot profile description with OpenClaw usage remaining.",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "telegram_usage_status_update"
+    ]
+  }
+}
